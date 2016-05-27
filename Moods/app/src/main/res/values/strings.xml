@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Media Player</string>
+    <string name="video">Video</string>
+    <string name="title_activity_main2">Main2Activity</string>
+    <string name="title_activity_play_list">PlayListActivity</string>
+    <string name="title_activity_player">PlayerActivity</string>
+    <string name="title_activity_video_list">VideoListActivity</string>
+    <string name="search">Search</string>
+
+    <string name="title_activity_video_player">VideoPlayer</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_songs_display">SongsDisplayActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="title_activity_songs_artists">SongsArtists</string>
+    <string name="title_activity_song_albums">SongAlbums</string>
+    <string name="title_activity_nav_drawer">NavDrawer</string>
+    <string name="Video">Video</string>
+    <string name="Audio">Audio Player</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="title_activity_splash_screen">SplashScreen</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_main">MainActivity</string>
+    <string name="title_activity_search">SearchActivity</string>
+</resources>

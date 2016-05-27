@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="5sp"
+    android:paddingRight="5sp"
+    tools:context=".MainActivity">
+
+    <ListView
+        android:id="@+id/track_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@+id/view"
+        android:paddingTop="50sp"
+        android:animateLayoutChanges="true"/>
+    <android.support.v7.widget.Toolbar
+        android:background="@color/colorAccent"
+        android:theme="@style/Base.ThemeOverlay.AppCompat.Dark.ActionBar"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:id="@+id/view"
+        android:layout_alignParentBottom="true"
+        android:layout_alignEnd="@+id/player_control">
+
+        <ImageView
+            android:id="@+id/selected_track_image"
+            android:layout_width="92dp"
+            android:layout_height="92dp"/>
+
+        <TextView
+            android:id="@+id/selected_track_title"
+            android:paddingLeft="8dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/player_control"
+        android:layout_gravity="right"
+        android:layout_width="92dp"
+        android:layout_height="92dp"
+        android:layout_alignBottom="@+id/view"
+        android:layout_alignParentEnd="true" />
+
+</RelativeLayout>
